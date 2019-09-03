@@ -37,7 +37,7 @@ public class PartitionQueue {
 			@Override
 			public void run() {
 				consumerList.forEach(Consumer::shutdown);
-				logger.error("Shutdown Hook is running !");
+				logger.error("Shutdown Hook is completed !");
 			}
 		});
 	}
